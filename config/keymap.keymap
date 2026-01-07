@@ -19,19 +19,19 @@
 
         mouse_layer {
             bindings = <
-&kp F1  &kp F2               &kp F3          &kp F4          &kp F5               &kp F6     &kp F7        &kp F8     &kp F9    &kp F10
-&kp N1  &kp N2               &kp N3          &kp N4          &kp N5               &mkp LCLK  &kp UP_ARROW  &mkp RCLK  &mo 4     &kp F11
-&kp N6  &kp N7               &kp N8          &kp N9          &kp N0               &trans     &trans        &kp LEFT   &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
-&trans  &kp INTERNATIONAL_5  &kp LANGUAGE_4  &kp LANGUAGE_3  &kp INTERNATIONAL_4  &trans     &trans        &mo 1      &mkp MB4  &mkp MB5
+&kp F1                   &kp F2               &kp F3          &kp F4          &kp F5               &kp F6     &kp F7        &kp F8     &kp F9    &kp F10
+&kp N1                   &kp N2               &kp N3          &kp N4          &kp N5               &mkp LCLK  &kp UP_ARROW  &mkp RCLK  &mo 4     &kp F11
+&mt LEFT_SHIFT NUMBER_6  &kp N7               &kp N8          &kp N9          &kp N0               &trans     &trans        &kp LEFT   &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
+&kp LEFT_CONTROL         &kp INTERNATIONAL_5  &kp LANGUAGE_4  &kp LANGUAGE_3  &kp INTERNATIONAL_4  &trans     &trans        &mo 1      &mkp MB4  &mkp MB5
             >;
         };
 
         temp_layer {
             bindings = <
-&kp F1  &kp F2               &kp F3          &kp F4          &kp F5               &kp F6     &kp F7        &kp F8     &kp F9    &kp F10
-&kp N1  &kp N2               &kp N3          &kp N4          &kp N5               &mkp LCLK  &kp UP_ARROW  &mkp RCLK  &mo 4     &kp F11
-&kp N6  &kp N7               &kp N8          &kp N9          &kp N0               &trans     &trans        &kp LEFT   &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
-&trans  &kp INTERNATIONAL_5  &kp LANGUAGE_4  &kp LANGUAGE_3  &kp INTERNATIONAL_4  &trans     &trans        &mo 1      &mkp MB4  &mkp MB5
+&kp F1                   &kp F2               &kp F3          &kp F4          &kp F5               &kp F6     &kp F7        &kp F8     &kp F9    &kp F10
+&kp N1                   &kp N2               &kp N3          &kp N4          &kp N5               &mkp LCLK  &kp UP_ARROW  &mkp RCLK  &mo 4     &kp F11
+&mt LEFT_SHIFT NUMBER_6  &kp N7               &kp N8          &kp N9          &kp N0               &trans     &trans        &kp LEFT   &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
+&kp LCTRL                &kp INTERNATIONAL_5  &kp LANGUAGE_4  &kp LANGUAGE_3  &kp INTERNATIONAL_4  &trans     &trans        &mo 1      &mkp MB4  &mkp MB5
             >;
         };
 
