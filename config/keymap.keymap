@@ -43,7 +43,7 @@
             bindings = <
 &kp F1                   &kp F2               &kp F3          &kp F4          &kp F5               &kp F6     &kp F7        &kp F8       &kp F9    &kp F10
 &trans                   &kp INTERNATIONAL_5  &kp LANGUAGE_4  &kp LANGUAGE_3  &kp INTERNATIONAL_4  &mkp LCLK  &kp UP_ARROW  &mkp RCLK    &mo 4     &kp F11
-&mt LEFT_SHIFT NUMBER_6  &trans               &trans          &trans          &trans               &trans     &trans        &kp LEFT     &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
+&mt LEFT_SHIFT Z  &trans               &trans          &trans          &trans               &trans     &trans        &kp LEFT     &kp DOWN  &kp RIGHT  &mkp MCLK  &kp F12
 &kp LCTRL                &kp LEFT_ALT         &trans          &trans          &trans               &trans     &trans        &lt 1 ENTER  &mkp MB4  &mkp MB5
             >;
         };

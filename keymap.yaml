@@ -69,7 +69,7 @@ layers:
     - '&mkp RCLK'
     - scroll
     - F11
-  - - {t: '6', h: LEFT SHIFT}
+  - - {t: Z, h: LEFT SHIFT}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
