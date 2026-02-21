@@ -18,5 +18,18 @@ config ZMK_MOUSE
 
 config PAW3222
     default y
- 
+
+if ZMK_SPLIT_ROLE_CENTRAL
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
+
+config ZMK_CDC_ACM_BOOTLOADER_TRIGGER
+    default y
+
+endif # ZMK_SPLIT_ROLE_CENTRAL
+
 endif
