@@ -12,7 +12,7 @@
 
 #define MOUSE 4
 #define SCROLL 5
-#define CMD_SLOW 6
+#define CMD_SLOW 2
 #define ZOOM 8
 
 &mt {
