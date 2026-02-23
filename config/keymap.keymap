@@ -24,6 +24,14 @@
 &lt { tapping-term-ms = <160>; };
 
 / {
+    trackball_listener_slow {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+        layers = <CMD_SLOW>;
+        scale-multiplier = <3>;
+        scale-divisor = <5>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -95,10 +103,10 @@
             label = "CMD_ZOOM";
             bindings =
                 <&macro_press>,
-                <&mo ZOOM &kp LEFT_COMMAND>,
+                <&mo ZOOM &kp LEFT_ALT>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_COMMAND &mo ZOOM>;
+                <&kp LEFT_ALT &mo ZOOM>;
         };
     };
 
