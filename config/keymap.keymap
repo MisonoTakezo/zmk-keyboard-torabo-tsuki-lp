@@ -18,10 +18,10 @@
 &mt {
     flavor = "tap-preferred";
     quick-tap-ms = <0>;
-    tapping-term-ms = <180>;
+    tapping-term-ms = <140>;
 };
 
-&lt { tapping-term-ms = <180>; };
+&lt { tapping-term-ms = <140>; };
 
 / {
     combos {
@@ -151,7 +151,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "Hold RIGHT_SHIFT, Tap Left Click";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <140>;
             bindings = <&kp>, <&mkp>;
         };
 
@@ -159,7 +159,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMD_SLOW";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <140>;
             bindings = <&cmd_slow>, <&kp>;
         };
 
@@ -167,7 +167,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMD_ZOOM";
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <140>;
             bindings = <&cmd_zoom>, <&kp>;
         };
     };
