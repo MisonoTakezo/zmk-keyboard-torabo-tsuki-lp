@@ -180,7 +180,7 @@
 &mt LEFT_ALT Q    &kp W  &kp E  &kp R        &kp T                     &kp Y                     &kp U                    &kp I                  &kp O  &kp P
 &kp A             &kp S  &kp D  &kp F        &kp TAB                   &lt 1 H                   &mkp MB1                 &kp K                  &kp L  &kp BACKSPACE
 &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V        &kp B                     &lt 6 PERIOD              &lt 7 ESCAPE             &kp N                  &kp M  &kp G          &kp J  &kp ENTER
-&kp C_SLEEP       &none  &none  &lt 5 COMMA  &ht_cmd_slow LANG2 LANG2  &ht_cmd_zoom MINUS MINUS  &mt RIGHT_CONTROL SPACE  &mt RIGHT_SHIFT LANG1  &none  &mo 5
+&none             &none  &none  &lt 5 COMMA  &ht_cmd_slow LANG2 LANG2  &ht_cmd_zoom MINUS MINUS  &mt RIGHT_CONTROL SPACE  &mt RIGHT_SHIFT LANG1  &none  &mo 5
             >;
         };
 
@@ -222,10 +222,10 @@
 
         SCROLL {
             bindings = <
-&trans        &trans        &trans        &kp SQT       &kp SLASH     &kp BACKSLASH  &kp SEMICOLON  &kp SQT       &kp MINUS     &kp EQUAL
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &trans        &trans        &trans        &trans         &trans         &kp GRAVE     &kp COMMA     &kp PERIOD    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans        &trans        &trans        &trans        &trans        &trans         &trans         &trans        &trans        &none
+&trans                &trans                &trans                 &kp SQT       &kp SLASH     &kp BACKSLASH  &kp SEMICOLON  &kp SQT       &kp MINUS     &kp EQUAL
+&kp NUMBER_1          &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LS(LG(NUMBER_2))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp ESCAPE    &mkp MB2      &trans         &trans         &kp GRAVE     &kp COMMA     &kp PERIOD    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans                &trans                &trans                 &trans        &trans        &trans         &trans         &trans        &trans        &none
             >;
         };
 
