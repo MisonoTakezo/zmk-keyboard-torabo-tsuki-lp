@@ -26,6 +26,16 @@
             &zip_xy_to_scroll_mapper
         >;
     };
+
+    // When layer 8 (ZOOM) is active: Cmd+scroll for zoom in Figma etc.
+    zoom_mode {
+        layers = <8>;
+        input-processors = <
+            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
+            &zip_xy_scaler 1 6
+            &zip_xy_to_scroll_mapper
+        >;
+    };
 };
 
 &size_s_transform {
