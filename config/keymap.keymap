@@ -83,10 +83,10 @@
             label = "CMD_ZOOM";
             bindings =
                 <&macro_press>,
-                <&mo ZOOM &kp LEFT_ALT>,
+                <&mo ZOOM &kp LEFT_COMMAND>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&kp LEFT_ALT &mo ZOOM>;
+                <&kp LEFT_COMMAND &mo ZOOM>;
         };
     };
 
