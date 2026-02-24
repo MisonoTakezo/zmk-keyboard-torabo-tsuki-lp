@@ -26,23 +26,65 @@ layers:
     - C
     - V
     - B
-    - {t: ESC, h: '6'}
+    - {t: ., h: '6'}
     - {t: ESCAPE, h: '7'}
     - N
     - M
     - G
   - - J
     - ENTER
-    - SLEEP
+    - ''
     - ''
     - ''
     - '5'
-    - FUNCTION
-    - LEFT COMMAND
+    - '2'
+    - '&cmd_zoom'
     - {t: SPACE, h: RIGHT CONTROL}
     - RIGHT SHIFT
   - ['', '5']
   FUNCTION:
+  - - ''
+    - ''
+    - UP ARROW
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Sft+Gui+4
+    - Sft+Gui+5
+  - - ESC
+    - LEFT ARROW
+    - DOWN ARROW
+    - RIGHT ARROW
+    - Alt+V
+    - ''
+    - '&mkp MB2'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - DELETE
+  - - Gui+Alt+PWR
+    - HOME
+    - ''
+    - '&mkp MB1'
+    - '&mkp MB2'
+    - Alt+Z
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Gui+[
+  - - Gui+]
+    - Sft+Gui+2
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LANG2
+    - LANGUAGE 1
+  - [Gui+Sft+2, '']
+  '2':
   - - ''
     - ''
     - UP ARROW
@@ -84,48 +126,6 @@ layers:
     - LANG2
     - LANGUAGE 1
   - [Gui+Sft+2, '']
-  '6':
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Sft+Gui+UP ARROW
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Alt+Sft+B
-    - Alt+UP ARROW
-    - Alt+Sft+C
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - Sft+Gui+LEFT ARROW
-    - Sft+Gui+DOWN ARROW
-    - Sft+Gui+RIGHT ARROW
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Alt+LEFT ARROW
-    - Alt+Sft+A
-    - Alt+RIGHT ARROW
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {type: held}
-    - '&bootloader'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - Sft+Gui+2
-    - {t: BT, h: '0'}
-    - {t: BT, h: '1'}
-    - {t: BT, h: '2'}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - [BT CLR ALL, '']
   ARROW:
   - [ESCAPE, Ctl+Sft+TAB, UP ARROW, Ctl+', /, \, ;, '''', '-', '=']
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
@@ -168,7 +168,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ''
-    - '&mkp MB2'
+    - {t: ▽, type: trans}
     - '&mkp MB3'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -206,11 +206,11 @@ layers:
     - '-'
     - '='
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - Sft+Gui+2
+    - Gui+[
+    - Gui+]
+    - ESCAPE
+    - '&mkp MB2'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - '`'
@@ -228,6 +228,48 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - ''
+  '6':
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Sft+Gui+UP ARROW
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Alt+Sft+B
+    - Alt+UP ARROW
+    - Alt+Sft+C
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - Sft+Gui+LEFT ARROW
+    - Sft+Gui+DOWN ARROW
+    - Sft+Gui+RIGHT ARROW
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Alt+LEFT ARROW
+    - Alt+Sft+A
+    - Alt+RIGHT ARROW
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - '&bootloader'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - Sft+Gui+2
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - [BT CLR ALL, '']
   '7':
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -247,6 +289,49 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - ''
+  '8':
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

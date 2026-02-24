@@ -1,0 +1,8 @@
+draw_config:
+  combo_w: 24
+  combo_h: 18
+  draw_key_sides: false
+  arc_radius: 6
+  append_colon_to_layer_header: true
+  small_pad: 2.0
+  combo_arc_scale: 0
