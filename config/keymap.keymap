@@ -152,7 +152,7 @@
 &mt LEFT_ALT Q    &kp W  &kp E  &kp R  &kp T    &kp Y              &kp U                    &kp I            &kp O  &kp P
 &kp A             &kp S  &kp D  &kp F  &kp TAB  &mt RIGHT_SHIFT H  &mkp MB1                 &kp K            &kp L  &kp BACKSPACE
 &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B    &lt 6 PERIOD       &lt 7 ESCAPE             &kp N            &kp M  &kp G          &kp J  &kp ENTER
-&none             &none  &none  &mo 5  &mo 2    &cmd_zoom          &mt RIGHT_CONTROL SPACE  &kp RIGHT_SHIFT  &none  &mo 5
+&cmd_zoom         &none  &none  &mo 5  &mo 2    &kp LEFT_GUI       &mt RIGHT_CONTROL SPACE  &kp RIGHT_SHIFT  &none  &mo 5
             >;
         };
 
