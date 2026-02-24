@@ -18,10 +18,10 @@
 &mt {
     flavor = "tap-preferred";
     quick-tap-ms = <0>;
-    tapping-term-ms = <160>;
+    tapping-term-ms = <180>;
 };
 
-&lt { tapping-term-ms = <160>; };
+&lt { tapping-term-ms = <180>; };
 
 / {
     combos {
@@ -109,7 +109,7 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
         };
 
         lt_to_layer_1: lt_to_layer_1 {
@@ -118,7 +118,7 @@
             bindings = <&mo>, <&to_layer_1>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
         };
 
         lt_to_layer_5: lt_to_layer_5 {
@@ -127,7 +127,7 @@
             bindings = <&mo>, <&to_layer_5>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
         };
 
         lt_to_layer_6: lt_to_layer_6 {
@@ -136,7 +136,7 @@
             bindings = <&mo>, <&to_layer_6>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
         };
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
@@ -151,7 +151,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "Hold RIGHT_SHIFT, Tap Left Click";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
             bindings = <&kp>, <&mkp>;
         };
 
@@ -159,7 +159,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMD_SLOW";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
             bindings = <&cmd_slow>, <&kp>;
         };
 
@@ -167,7 +167,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HT_CMD_ZOOM";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <180>;
             bindings = <&cmd_zoom>, <&kp>;
         };
     };
