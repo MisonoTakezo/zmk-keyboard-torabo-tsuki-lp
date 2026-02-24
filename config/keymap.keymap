@@ -24,14 +24,6 @@
 &lt { tapping-term-ms = <160>; };
 
 / {
-    trackball_listener_slow {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-        layers = <CMD_SLOW>;
-        scale-multiplier = <3>;
-        scale-divisor = <5>;
-    };
-
     combos {
         compatible = "zmk,combos";
 
