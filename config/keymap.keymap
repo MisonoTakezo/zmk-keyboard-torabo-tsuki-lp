@@ -159,7 +159,7 @@
         FUNCTION {
             bindings = <
 &none              &none           &kp UP_ARROW    &none            &none      &trans     &trans     &trans          &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))
-&kp ESC            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(V)  &none      &mkp MB2   &trans          &trans                &kp DELETE
+&kp ESC            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(V)  &none      &trans     &mkp MB2        &trans                &kp DELETE
 &kp LG(LA(C_PWR))  &kp HOME        &none           &mkp MB1         &mkp MB2   &kp LA(Z)  &trans     &trans          &trans                &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LS(LG(NUMBER_2))
 &bt BT_SEL 0       &bt BT_SEL 1    &bt BT_SEL 2    &trans           &trans     &trans     &kp LANG2  &kp LANGUAGE_1  &kp LG(LS(NUMBER_2))  &none
             >;
