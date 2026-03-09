@@ -204,18 +204,18 @@
         layer_6 {
             bindings = <
 &trans        &trans              &kp LA(UP_ARROW)    &trans               &trans  &trans  &kp LA(LS(B))       &kp LA(UP_ARROW)  &kp LA(LS(C))        &trans
-&trans        &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(RIGHT_ARROW)  &trans  &trans  &kp LA(LEFT_ARROW)  &kp LA(LS(A))     &kp LA(RIGHT_ARROW)  &kp LA(DELETE)
-&trans        &trans              &trans              &trans               &trans  &trans  &bootloader         &trans            &trans               &trans          &trans  &kp LS(LG(NUMBER_2))
+&trans        &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(RIGHT_ARROW)  &trans  &trans  &kp LA(LEFT_ARROW)  &kp LA(LS(A))     &kp LA(RIGHT_ARROW)  &kp LA(BACKSPACE)
+&trans        &trans              &trans              &trans               &trans  &trans  &bootloader         &trans            &trans               &trans             &trans  &kp LS(LG(NUMBER_2))
 &bt BT_SEL 0  &bt BT_SEL 1        &bt BT_SEL 2        &trans               &trans  &trans  &trans              &trans            &bt BT_CLR_ALL       &none
             >;
         };
 
         layer_7 {
             bindings = <
-&trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
-&trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans                  &kp LS(LG(UP_ARROW))    &trans                   &trans  &kp F1  &kp F2  &kp F3   &kp F4   &kp F5
+&trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(DOWN_ARROW))  &kp LS(LG(RIGHT_ARROW))  &trans  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10
+&trans  &trans                  &trans                  &trans                   &trans  &trans  &trans  &kp F11  &kp F12  &trans   &trans  &trans
+&trans  &trans                  &trans                  &trans                   &trans  &trans  &trans  &trans   &trans   &none
             >;
         };
 
